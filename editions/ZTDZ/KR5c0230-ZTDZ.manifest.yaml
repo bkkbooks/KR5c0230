@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0230/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0230/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 神氣養形論
+  date: '2015-08-29 00:54:45.544285'
+  source:
+    repository: kanripo
+    path: KR5c0230
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0230_000-ZTDZ.yaml, hash: 'sha256:fd39c135f29222dc5d9404d7c73deeed81a691484e1382bb2b8e49ab1ed0b9d6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0230_000-ZTDZ.markers.yaml, hash: 'sha256:d6c3c3837f2d958f41413bace23a1fb9f4e09b25f7877246d0c192ddabc9625e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0230_SJB_000-180457b
+    span:
+    - body
+    - 0
+    - 882
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c5a384971d5b625e5c335f2b06ea86801f0eb071cd36dd7e9981146dca1d4735
